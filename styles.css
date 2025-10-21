@@ -7,3 +7,58 @@
     font-family: norse-bold;
     src: url(fonts/Norse-Bold.otf);
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left-container {
+    width: 40vw;
+    background-image: url(pics/cover.avif);
+    background-size: cover;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 10rem;
+   background-color: rgba(0, 0, 0, 0.452);
+}
+
+.logo {
+    width: 80px;
+    background-color: transparent;
+}
+
+.logo-name {
+    font-family: norse-bold ,Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 5rem;
+}
+
+.right-container {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.div-right-one
+, .div-right-three {
+   height: 35vh;
+   background-color: rgba(168, 167, 167, 0.062);
+}
+
+.div-right-two {
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+}
