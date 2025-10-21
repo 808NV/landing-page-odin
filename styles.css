@@ -1,0 +1,9 @@
+:root {
+   --btn-color: #596D48;
+   --input-border-color: #E5E7EB;
+}
+
+@font-face {
+    font-family: norse-bold;
+    src: url(fonts/Norse-Bold.otf);
+}
