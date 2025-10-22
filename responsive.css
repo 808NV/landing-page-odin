@@ -1,0 +1,56 @@
+/*** responsive design ***/
+
+@media (max-width: 768px) {
+
+    .div-right-one,
+    .div-right-two,
+    .div-right-three {
+        align-items: center;
+        padding-left: 0rem;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .logo-name {
+        font-size: 3rem;
+    }
+
+    .discrption {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .form-div input {
+        width: 8rem;
+        height: 1rem;
+    }
+
+    .form-div label {
+        font-size: 0.8rem;
+    }
+
+    .submit-button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .log-in {
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width: 605px) {
+    
+    .form-div input {
+        width: 5rem;
+        height: 1rem;
+    }
+
+    .form-div label {
+        font-size: 0.6rem;
+    }
+}
+
