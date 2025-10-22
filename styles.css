@@ -107,8 +107,20 @@ body {
     border: 1px solid var(--input-border-color);
     border-radius: 0.3rem;
     padding-left: 0.5rem;
+    outline: none;
 }
 
+form .form-div input:focus {
+    border: 1px solid blue;
+}
+
+.form-div #password-confirm:invalid {
+    border: 1px solid red;
+}
+
+.form-div #password:invalid {
+    border: 1px solid red;
+}
 
 .form-div label {
     text-transform: uppercase;
